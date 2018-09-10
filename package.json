@@ -1,0 +1,34 @@
+{
+  "name": "node-express",
+  "version": "1.0.0",
+  "description": "demo",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "connect-session-sequelize": "^5.0.1",
+    "express": "^4.14.0",
+    "express-session": "1.14.2",
+    "express-winston": "2.0.0",
+    "formidable": "^1.1.1",
+    "request": "^2.83.0",
+    "sequelize": "^4.36.0",
+    "sequelize-cli": "^3.0.0",
+    "socket.io": "^2.0.4",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "bluebird": "^3.5.1",
+    "cross-env": "^5.0.0",
+    "istanbul": "0.4.5",
+    "mocha": "3.1.2",
+    "mysql2": "^1.5.2",
+    "request": "^2.83.0",
+    "supertest": "2.0.1"
+  },
+  "scripts": {
+    "test": "mocha --harmony test",
+    "start": "supervisor --harmony app"
+  },
+  "author": "",
+  "license": "ISC"
+}
